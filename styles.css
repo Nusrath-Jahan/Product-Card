@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: whitesmoke;
+    padding: 1.5rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    background: white;
+    width: 700px;
+    height: 600px;
+    margin: 10px;
+}
+
+.card-image {
+    display: flex;
+    background-color: white;
+    height: 550px;
+    width: 400px;
+    margin-bottom: 15px;
+    
+}
+
+.card-contant{
+    background-color: white;
+}   
+.product-category{
+    color: rgb(112, 5, 5);
+    
+    order: -1;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+.product-price{
+    order: -1;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+product-size{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 100%;
+
+}
+.button {
+    cursor: pointer;
+    width: 80%;
+    background-color: #4b3e9d;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.6em 0.9em;
+    border: 0;
+    border-radius: 0.5rem;
+    margin: 20px;
+  }
